@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.balance{
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    gap: 1rem;
+    color: #333;
+}
+
+.nav-links{
+  display: flex;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.add-transaction{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-self: center;
+}
+
+.add-transaction form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    row-gap: 3rem;
+}
+.form-title{
+    margin: 10px 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
+
+.add-transaction form input{
+    width: object-fit;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.add-transaction form button{
+  width: object-fit;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+.transaction-list{
+  padding: 10px 20px;
+}
+
+.transaction{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.transaction-income{
+    color: green;
+}
+.transaction-expense{
+    color: red;
+}
